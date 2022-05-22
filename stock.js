@@ -4,7 +4,7 @@ const productos =
         id: 1,
         nombre: "Cartera Flor",
         tipo: "accesorios",
-        desc: "Un accesorio que re va con vos!",
+        img: "../carteragranny.jpg",
         precio: 1700,
         cantidad: 2
     },
@@ -12,7 +12,7 @@ const productos =
         id: 2,
         nombre: "Ruana Tauro",
         tipo: "accesorios",
-        desc: "Un accesorio que re va con vos!",
+        img: "../imagenes/accesorio.jpg",
         precio: 2000,
         cantidad: 6
     },
@@ -20,7 +20,7 @@ const productos =
         id: 3,
         nombre: "Neceser Granny",
         tipo: "accesorios",
-        desc: "Un accesorio que re va con vos!",
+        img: "../imagenes/neceser.jpg",
         precio: 1500,
         cantidad: 5
     },
@@ -28,7 +28,7 @@ const productos =
         id: 4,
         nombre: "Cuello Piscis",
         tipo: "accesorios",
-        desc: "Un accesorio que re va con vos!",
+        img: "../imagenes/cuellito.jpg",
         precio: 1000,
         cantidad: 4
     },
@@ -36,7 +36,7 @@ const productos =
         id: 5,
         nombre: "Medias Lulu",
         tipo: "accesorios",
-        desc: "Un accesorio que re va con vos!",
+        img: "../imagenes/medias.jpg",
         precio: 800,
         cantidad: 3
     },
@@ -44,7 +44,7 @@ const productos =
         id: 6,
         nombre: "Bandolera Sol",
         tipo: "accesorios",
-        desc: "Un accesorio que re va con vos!",
+        img: "../imagenes/cartera2.jpg",
         precio: 1700,
         cantidad: 1
     },

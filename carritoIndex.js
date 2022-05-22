@@ -1,5 +1,5 @@
-import { actualizarCarrito } from "./actualizarCarrito.js";
-import { productos } from "./stock.js";
+import { actualizarCarrito } from "/actualizarCarrito.js";
+import { productos } from "/stock.js";
 
 const contenedorCarrito = document.getElementById('carrito-contenedor');
 let carritoDeCompras = [];
@@ -23,7 +23,7 @@ export const eliminarProductoCarrito = (productoId, productoNombre) => {
   botonEliminar.addEventListener('click', () => {
 
     swal({
-      title: `Está seguro de eliminar el producto: ${productoNombre}?`,
+      title: `Está seguro que desea eliminar el producto: ${productoNombre}?`,
       icon: 'warning',
       buttons: true,
       dangerMode: true

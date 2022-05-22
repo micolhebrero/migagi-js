@@ -1,5 +1,5 @@
-import { carritoIndex } from "./carritoIndex.js";
-import { getData } from "./getData.js";
+import { carritoIndex } from "/carritoIndex.js";
+import { getData } from "/getData.js";
 
 export const mostrarProductos = async () => {
 
@@ -12,12 +12,10 @@ export const mostrarProductos = async () => {
     div.innerHTML += `<div class="card-image">
                         <img src=${producto.img}>
                         <span class="card-title">${producto.nombre}</span>
-                        <a class="btn-floating halfway-fab wabes-effect waves-light red" id=boton${producto.id}><i class="material-icons">add_shopping_cart</i></a>
                       </div>
                       <div class="card-content">
-                          <p>${producto.desc}</p>
-                          <p>Talle: ${producto.talle}</p>
-                          <p>${producto.precio}</p>
+                        <p>$ ${producto.precio}</p>
+                        <a class="btn btn-outline-secondary button" id=boton${producto.id}><i class="material-icons">Agregar</i></a>
                       </div>
                      `
     contenedorProductos.appendChild(div);

@@ -97,10 +97,26 @@ footer{
 .bi-whatsapp:hover{
     color: #00bb2d;
 }
-.img {
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 10px;
+img {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  }
+  .card-title{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+  }
+  .card-content{
+    font-size: 140%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
   }
   #cesta-carrito {
     border: none;
@@ -235,10 +251,16 @@ select {
     display: flex;
     align-items: center;
 }
+.form-label{
+  width: 5rem;
+}
 .mapa{
     width: 250px;
     height: 250px;
     margin: 10%;
+}
+footer{
+  width: 100%;
 }
 .bi-facebook{
     font-size: 1.5rem;
