@@ -70,13 +70,26 @@
         </div>
     </div>
 
-    <form>
+    <form id="form" action="https://formspree.io/f/moqrragp" method="POST" class="formulario">
+        <label for="name">Nombre</label>
+        <input name="name" required type="text" id="name" placeholder="Nombre">
+        <label for="email">Email</label>
+        <input name="email" type="text" id="email" required placeholder="xxx@gmail.com">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" cols="30" rows="10"></textarea>
+        <button id="boton" type="submit" class="btn primary full mx-3">Enviar</button>
+        </form>
+
+
+<!--     <form id="form" class="form" action="https://formspree.io/f/moqrragp" method="POST">
         <div class="mb-3 mx-3">
             <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input class="form-control">
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3 mx-3">
             <label class="form-label">Mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <input class="form-control">
         </div>
         <div class="mb-3 mx-3">
@@ -84,7 +97,7 @@
             <input class="form-control">
         </div>
         <button type="submit" class="btn btn-secondary mx-3">Enviar</button>
-    </form>
+    </form> -->
 
     <div style="text-align: center;" class="map" data-aos="fade-up-right">
         <iframe
@@ -101,6 +114,15 @@
     <!-- fin footer -->
 
     <!-- script boostrap y aos -->
+    <script src="/stock.js" type="module"></script>
+    <script src="/App.js" type="module"></script>
+    <script src="/carritoIndex.js" type="module"></script>
+    <script src="/actualizarCarrito.js" type="module"></script>
+    <script src="/modal.js"></script>
+    <script src="/index.js" type="module"></script>
+    <script src="/getData.js" type="module"></script>
+    <script src="/form.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
