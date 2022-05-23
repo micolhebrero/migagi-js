@@ -1,5 +1,5 @@
-import { actualizarCarrito } from "/actualizarCarrito.js";
-import { productos } from "/stock.js";
+import { actualizarCarrito } from "./actualizarCarrito.js";
+import { productos } from "./stock.js";
 
 const contenedorCarrito = document.getElementById('carrito-contenedor');
 let carritoDeCompras = [];
